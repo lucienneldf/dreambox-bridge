@@ -1,0 +1,19 @@
+# 梦想盒子素材采集工具配置文件
+
+# 飞书应用配置（请替换为你的真实凭证）
+feishu:
+  app_id: "你的 App ID"
+  app_secret: "你的 App Secret"
+  app_token: "你的 App Token"
+  table_id: "你的 Table ID"
+  config_table_id: "tbl0SuteTNP5Y518"
+
+# 采集配置
+crawl:
+  request_interval: 0.5  # 请求间隔（秒）
+  max_per_school: 0      # 每校最大采集数（0=不限）
+
+# 访问密码配置
+auth:
+  enabled: false
+  password: ""
